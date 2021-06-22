@@ -2,7 +2,7 @@
 $log="";
 
 require("var.php");
-$savePath="/uploads/";
+$savePath="\uploads\ ";
 
 
 
@@ -74,7 +74,7 @@ else
 {
 	header('Location:index2.php?loggedin=not');
 }
-echo "<script>window.top.location='https://shantanu123.000webhostapp.com/upload.php?uploaded=1'</script>";
+echo "<script>window.top.location='https://localhost/upload.php?uploaded=1'</script>";
 
 
 ?>
